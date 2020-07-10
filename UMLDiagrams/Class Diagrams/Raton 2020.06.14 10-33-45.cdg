@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Raton">
+  <ClassDiagramComponents>
+    <Class name="Raton" package="poo.cap1.ej2" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="dias" type="int" visibility="private"/>
+        <Field name="peso" type="double" visibility="private"/>
+        <Field name="tasaCrecimientoPorcentual" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="edad"/>
+          <Argument type="double" name="tasaCrecimientoPorcentual"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setTasaCrecimientoPorcentual" returnType="void" visibility="public">
+          <Argument type="double" name="tasaCrecimientoPorcentual"/>
+        </Method>
+        <Method name="crecer" returnType="void" visibility="public">
+          <Argument type="int" name="dias"/>
+        </Method>
+        <Method name="crecer" returnType="void" visibility="public"/>
+        <Method name="esAdolescente" returnType="boolean" visibility="public"/>
+        <Method name="desplegar" returnType="void" visibility="public"/>
+        <Method name="getEdad" returnType="int" visibility="public"/>
+        <Method name="getDias" returnType="int" visibility="public"/>
+        <Method name="setDias" returnType="void" visibility="public">
+          <Argument type="int" name="dias"/>
+        </Method>
+        <Method name="getPeso" returnType="double" visibility="public"/>
+        <Method name="setPeso" returnType="void" visibility="public">
+          <Argument type="double" name="peso"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

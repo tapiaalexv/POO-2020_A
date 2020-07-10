@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Fraccion">
+  <ClassDiagramComponents>
+    <Class name="Fraccion" package="poo.practica1" visibility="public" xPosition="14.0" yPosition="47.0">
+      <Fields>
+        <Field name="numerador" type="int" visibility="private"/>
+        <Field name="denominador" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="numerador"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="int" name="numerador"/>
+          <Argument type="int" name="denominador"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+        <Method name="simplificarFraccion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
