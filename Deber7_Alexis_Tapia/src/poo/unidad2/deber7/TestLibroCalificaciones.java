@@ -27,29 +27,33 @@ public class TestLibroCalificaciones {
 
         System.out.print("Ingrese el nombre de la materia: ");
         materia = datos.next();
-
         testCalificaciones.setMateria(materia);
+        System.out.println("");
 
         System.out.print("¿Cuántas calificaciones va a ingresar? ");
         tamano = datos.nextInt();
-
+        System.out.println("");
+        
         testCalificaciones.definirTamano(tamano);
 
         for (int i = 0; i < tamano; i++) {
-            System.out.print("Ingrese la "+(i+1)+" Nota: ");
+            System.out.print("Estudiante "+(i+1)+": ");
             nota = datos.nextInt();
             testCalificaciones.llenarNota(i, nota);
         }
         
         System.out.print("\nEl promedio de notas es: "+testCalificaciones.calcularPromedio());
+        System.out.println("\n");
         
         System.out.print("\nLa nota más baja es: "+testCalificaciones.calcularNotaMasBaja());
         System.out.print("\nLa nota más alta es: "+testCalificaciones.calcularNotaMasAlta());
+        System.out.println("\n");
         
         testCalificaciones.ordenarCalificaciones();
         System.out.print("\nLas notas ordenadas de manera descendentemente son:\n");
         testCalificaciones.imprimirNotas();
         
+        System.out.println("\n");
         testCalificaciones.presentarDistribucionCalificaciones();
         System.out.print("\n");
         
