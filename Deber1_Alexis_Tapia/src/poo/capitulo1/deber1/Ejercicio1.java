@@ -21,6 +21,14 @@ public class Ejercicio1 {
         Scanner numero = new Scanner(System.in);
         int cincoDigitos;
         boolean exito = false;
+        
+        int x = 2;
+        int y = -2;
+        x +=1;
+        y = ++x;
+        System.out.println("~~"+x+"\t"+y);
+        
+        
 
         do {
 
